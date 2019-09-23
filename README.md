@@ -45,12 +45,8 @@ kubectl create clusterrolebinding tiller \`
     Example working config on MacBook Pro 15 (32 GB),, Advanced tab
 
 
-    
+    ![Resources](image2.jpg)
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Local-Operator1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Local-Operator1.png "image_tooltip")
 
 
 
@@ -265,10 +261,7 @@ Open the` providers/private.yaml`, change replicas to ***<code>2</code></strong>
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Local-Operator2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Local-Operator2.png "image_tooltip")
+![Resources](image3.jpg)
 
 
  \
@@ -291,11 +284,7 @@ Then run the following to upgrade kafka to 2 brokers \
 ## When you run kubectl get pods -n operator you’ll now see that you have another broker available
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Local-Operator3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Local-Operator3.png "image_tooltip")
+![Resources](image4.jpg)
 
 
 NOTE: It’s worth showing that when you provide the component version with this additional flag, it will pull down the new image and upgrade to the latest version. This will be possible to demonstrate later when more versions become available, but for now we can just highlight it.
@@ -327,10 +316,7 @@ Demonstrate Resilience (?)
     1. Go to a directory containing the extracted Confluent tarball (latest is good, not super important).. If you’re in the appropriate folder it will look like this (without the json): \
 
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Local-Operator4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Local-Operator4.png "image_tooltip")
+![Resources](image5.jpg)
 
     2. Download json from here: \
 [https://raw.githubusercontent.com/confluentinc/demo-scene/master/industry-themes/next_best_offer_insurance/data/customer_activity_insurance.json](https://raw.githubusercontent.com/confluentinc/demo-scene/master/industry-themes/next_best_offer_insurance/data/customer_activity_insurance.json)
