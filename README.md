@@ -264,9 +264,6 @@ Open the` providers/private.yaml`, change replicas to ***<code>2</code></strong>
 ![Resources](image3.jpg)
 
 
- \
-
-
 Then run the following to upgrade kafka to 2 brokers \
 
 
@@ -322,14 +319,14 @@ Demonstrate Resilience (?)
 
 3. Run the following:
 
-        ```
-        ./bin/kafka-producer-perf-test \
-          --topic CUSTOMER_ACTIVITY_STREAM \
-          --throughput 1 \
-          --producer-props bootstrap.servers=b0.SASL_PLAINTEXT:9092 \
-          --payload-file customer_activity_insurance.json \
-          --num-records 100000
-        ```
+```
+    ./bin/kafka-producer-perf-test \
+      --topic CUSTOMER_ACTIVITY_STREAM \
+      --throughput 1 \
+      --producer-props bootstrap.servers=b0.SASL_PLAINTEXT:9092 \
+      --payload-file customer_activity_insurance.json \
+      --num-records 100000
+```
 
 
 2. Show in C3 how message are flowing through
