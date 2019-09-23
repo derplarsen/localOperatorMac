@@ -40,7 +40,7 @@ kubectl create clusterrolebinding tiller \`
 
     How to bump up Docker resources:
 
-![Resources](Image1.jpg)
+![Resources](image1.jpg)
 
     Example working config on MacBook Pro 15 (32 GB),, Advanced tab
 
