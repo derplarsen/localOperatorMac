@@ -315,12 +315,12 @@ Demonstrate Resilience (?)
 1. Initiate a kafka-producer-perf-test
     1. Go to a directory containing the extracted Confluent tarball (latest is good, not super important).. If you’re in the appropriate folder it will look like this (without the json): \
 
-
 ![Resources](image5.jpg)
 
-    2. Download json from here: \
+2. Download json from here: 
 [https://raw.githubusercontent.com/confluentinc/demo-scene/master/industry-themes/next_best_offer_insurance/data/customer_activity_insurance.json](https://raw.githubusercontent.com/confluentinc/demo-scene/master/industry-themes/next_best_offer_insurance/data/customer_activity_insurance.json)
-    3. Run the following:
+
+3. Run the following:
 
         ```
         ./bin/kafka-producer-perf-test \
