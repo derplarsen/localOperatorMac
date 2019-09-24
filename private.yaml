@@ -55,7 +55,7 @@ zookeeper:
 ##
 kafka:
   name: kafka
-  replicas: 2
+  replicas: 1
   jvmConfig:
     heapSize: 1G
   resources:
