@@ -59,6 +59,8 @@ Here is a link to the **private.yaml **file in this working configuration:
 
 The following helm commands will install a pod by name (zookeeper, then kafka, etc) using the **yaml** file provided above:
 
+**(Note - enter the `helm` directory inside of the base extracted confluent-operator directory before running these commands)**
+
 Install Operator first:
 
 
