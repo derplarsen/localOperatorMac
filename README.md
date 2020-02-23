@@ -55,7 +55,7 @@ kubectl create clusterrolebinding tiller \`
 
 Here is a link to the **private.yaml **file in this working configuration:
 
-[https://drive.google.com/open?id=1sfUiGTnU02ZCdGKZOiiJmPc7mtJ5h1K](https://drive.google.com/open?id=1sfUiGTnU02ZCdGKZOiiJmPc7mtJ5h1KS)
+[https://raw.githubusercontent.com/derplarsen/localOperatorMac/master/private.yaml](https://raw.githubusercontent.com/derplarsen/localOperatorMac/master/private.yaml)
 
 The following helm commands will install a pod by name (zookeeper, then kafka, etc) using the **yaml** file provided above:
 
