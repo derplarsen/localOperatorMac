@@ -188,7 +188,7 @@ Fire up a producer to send in some messages:
 
 
 ```
-    kafka-console-producer --producer.config /opt/ka.properties --broker-list kafka-0:9092 --topic test-topic
+    kafka-console-producer --producer.config /opt/kafka.properties --broker-list kafka-0:9092 --topic test-topic
 ```
 
 
