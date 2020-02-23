@@ -30,7 +30,7 @@ This guide is for those of us that want to do an initial demo Confluent Operator
     --serviceaccount kube-system:tiller`
 
 
-`helm init --service-account tiller` \
+`helm init --service-account tiller` 
 
 
 *   More resources given to Docker (+8-12GB RAM, +4 CPU)
