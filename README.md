@@ -21,11 +21,8 @@ This guide is for those of us that want to do an initial demo Confluent Operator
 
 
 *   Tiller \
-`kubectl create serviceaccount tiller -n kube-system \
- \
-kubectl create clusterrolebinding tiller \`
-
-    ```
+```kubectl create serviceaccount tiller -n kube-system \
+kubectl create clusterrolebinding tiller \
     --clusterrole=cluster-admin \
     --serviceaccount kube-system:tiller
     ```
