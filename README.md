@@ -183,15 +183,12 @@ In order to log into the broker and execute `kafka-topics`, `kafka-console-produ
 Now that we are inside the pod we can run a test to see if our SSL / SASL plain encryption + ACL is enabled..
 
 
-(First, we’ll need to set the local IP for the name resolution of “b0.SASL_PLAINTEXT”, do this by editing /etc/hosts and giving the non-127.0.0.1 ip address (mine is 192.168.1.12) of the laptop.
-
-
 Fire up a producer to send in some messages: 
 
 
 
 ```
-    kafka-console-producer --producer.config <path to>/kafka.properties --broker-list b0.SASL_PLAINTEXT:9092 --topic test-topic
+    kafka-console-producer --producer.config /opt/ka.properties --broker-list kafka-0:9092 --topic test-topic
 ```
 
 
@@ -200,7 +197,7 @@ Start up another terminal session and log in to the same pod with the exec state
 
 
 ```
-    kafka-console-consumer --consumer.config <path to>/kafka.properties --bootstrap-server b0.SASL_PLAINTEXT:9092 --topic test-topic --from-beginning
+    kafka-console-consumer --consumer.config /opt/kafka.properties --bootstrap-server kafka-0:9092 --topic test-topic --from-beginning
 ```
 
 
