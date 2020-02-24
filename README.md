@@ -10,7 +10,7 @@ This guide is for those of us that want to do an initial demo Confluent Operator
 
 ### Deps:
 
-
+THIS USES HELM v2 and is for Confluent Operator 5.3!
 
 *   Helm  \
 `brew install kubernetes-helm`
